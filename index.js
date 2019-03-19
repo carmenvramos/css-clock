@@ -2,6 +2,11 @@
  * Starts any clocks using the user's local time
  * From: cssanimation.rocks/clocks
  */
+
+initLocalClocks();
+setUpMinuteHands();
+moveSecondHands();
+
 function initLocalClocks() {
   // Get the local time using JS
   var date = new Date;
